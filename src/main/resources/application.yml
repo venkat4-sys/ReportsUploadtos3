@@ -12,8 +12,8 @@ spring:
 cloud:
   aws:
     credentials:
-     access-key: AKIAU5XZDAVKYS63HIEP
-     secret-key: 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
+     access-key: 
+     secret-key: 
     region:
       static: ap-south-1
     stack:
@@ -21,5 +21,5 @@ cloud:
       
 application:
   bucket:
-    name: venkats3b      
+    name:       
         
