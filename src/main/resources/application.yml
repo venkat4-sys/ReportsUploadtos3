@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/citizen
+    username: root
+    password: Venkat_147
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+cloud:
+  aws:
+    credentials:
+     access-key: AKIAU5XZDAVKYS63HIEP
+     secret-key: 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
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+      
+application:
+  bucket:
+    name: venkats3b      
+        
